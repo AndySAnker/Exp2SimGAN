@@ -97,14 +97,10 @@ __Manh Duc Le__<sup>3</sup>
 __Toby G. Perring__<sup>3</sup>     
 __Jeyan Thiyagalingam__<sup>2</sup>    
  
-<sup>1</sup> Department of Chemistry and Nano-Science Center, University of Copenhagen, Denmark.
-
-<sup>2</sup> Scientiﬁc Computing Department, Rutherford Appleton Laboratory, England.
-
-<sup>3</sup> ISIS Neutron and Muon Source, Rutherford Appleton Laboratory, England.
-
+<sup>1</sup> Department of Chemistry and Nano-Science Center, University of Copenhagen, Denmark.   
+<sup>2</sup> Scientiﬁc Computing Department, Rutherford Appleton Laboratory, England.   
+<sup>3</sup> ISIS Neutron and Muon Source, Rutherford Appleton Laboratory, England.   
 <sup>4</sup> Current affiliation: School of Engineering and Materials Science, Queen Mary University of London, England.   
-
 Should there be any question, desired improvement or bugs please contact us on GitHub or 
 through email: __andy@chem.ku.dk__.
 
