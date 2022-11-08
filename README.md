@@ -99,8 +99,8 @@ __Jeyan Thiyagalingam__<sup>2</sup>
  
 <sup>1</sup> Department of Chemistry and Nano-Science Center, University of Copenhagen, Denmark.   
 <sup>2</sup> Scientiﬁc Computing Department, Rutherford Appleton Laboratory, England.
-<sup>3</sup> ISIS Neutron and Muon Source, Rutherford Appleton Laboratory, England.    
-<sup>4</sup> Current affiliation: School of Engineering and Materials Science, Queen Mary University of London, Mile End Rd, London E1 4NS, England.   
+<sup>3</sup> ISIS Neutron and Muon Source, Rutherford Appleton Laboratory, England.
+<sup>4</sup> Current affiliation: School of Engineering and Materials Science, Queen Mary University of London, England.   
 
 Should there be any question, desired improvement or bugs please contact us on GitHub or 
 through email: __andy@chem.ku.dk__.
@@ -109,9 +109,9 @@ through email: __andy@chem.ku.dk__.
 If you use our code or our results, please consider citing our papers. Thanks in advance!
 ```
 @article{anker2022Exp2SimGAN,
-title={Using generative adversarial networks to match experimental and simulated inelastic neutron scattering data},
-author={Andy S. Anker, Keith T. Butler, Manh D. Le, Toby G. Perring, Jeyan Thiyagalingam},
-year={2022}}
+    title={Using generative adversarial networks to match experimental and simulated inelastic neutron scattering data},
+    author={Andy S. Anker, Keith T. Butler, Manh D. Le, Toby G. Perring, Jeyan Thiyagalingam},
+    year={2022}}
 ```
 
 # Acknowledgments
