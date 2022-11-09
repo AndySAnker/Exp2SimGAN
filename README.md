@@ -22,6 +22,8 @@ The network is easy to train since it only requires to divide the data into sepe
 
 We have also implemented an quantification for how much you can trust the results of Exp2SimGAN on your data inspired by a [FID score]("https://arxiv.org/abs/1706.08500").
 
+![alt text](imgs/TrustingTheMachine.png "TrustingTheMachine")
+
 
 # Getting started
 Follow these step if you want to train Exp2SimGAN and predict with Exp2SimGAN locally on your own computer.
