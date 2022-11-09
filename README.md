@@ -2,7 +2,7 @@
 
 # Exp2SimGAN
 Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate between simulated- and experimental data! 
-![alt text](img/results.png "results")
+![alt text](imgs/results.png "results")
 
 1. [Exp2SimGAN](#Exp2SimGAN)
 2. [Getting started](#getting-started)
@@ -17,7 +17,7 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
 
 
 
-![alt text](img/Network.png "Network")
+![alt text](imgs/Network.png "Network")
 
 
 # Getting started
