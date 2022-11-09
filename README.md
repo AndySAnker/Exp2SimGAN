@@ -2,7 +2,10 @@
 
 # Exp2SimGAN
 Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate between simulated- and experimental data! 
-![alt text](imgs/results.png "results" | width=20)
+
+<p align="center">
+  <img width="800" src="imgs/results.png">
+</p>
 
 1. [Exp2SimGAN](#Exp2SimGAN)
 2. [Getting started](#getting-started)
@@ -18,12 +21,15 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
 Exp2SimGAN is a dual contrastive adversarial generative network that is trained on two domains of instances as simulated and experimental data. It learns to translate between the two domains while preserving the features of the conditioning instance. An instance can be a 1D, 2D or 3D dataset. In this paper, we have explored the use of Exp2SimGAN on 2D and 3D inelastic neutron scattering data.
 The network is easy to train since it only requires to divide the data into seperate folder - oppositely does the network require large amounts of memory to train. If you do not have access to large amounts of memory, please write andy@chem.ku.dk to get help. After training, only a fourth of the network has to be used meaning that a lot of memory is freed and the network can be run to predict on most computers.
 
-![alt text](imgs/Network.png "Network")
+<p align="center">
+  <img width="800" src="imgs/Network.png">
+</p>
 
 We have also implemented an quantification for how much you can trust the results of Exp2SimGAN on your data inspired by a [FID score]("https://arxiv.org/abs/1706.08500").
 
-![alt text](imgs/TrustingTheMachine.png "TrustingTheMachine")
-
+<p align="center">
+  <img width="400" src="imgs/TrustingTheMachine.png">
+</p>
 
 # Getting started
 Follow these step if you want to train Exp2SimGAN and predict with Exp2SimGAN locally on your own computer.
