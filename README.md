@@ -2,6 +2,7 @@
 
 # Exp2SimGAN
 Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate between simulated- and experimental data! 
+![alt text](imgs/results.png "results")
 
 1. [Exp2SimGAN](#Exp2SimGAN)
 2. [Getting started](#getting-started)
@@ -14,20 +15,12 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
 5. [Acknowledgments](#Acknowledgments)
 6. [License](#license)  
 
-We here apply DeepStruc for the structural analysis of a model system of mono-metallic nanoparticle (MMNPs) with seven
-different structure types and demonstrate the method for both simulated and experimental PDFs. DeepStruc can reconstruct
-simulated data with an average mean absolute error (MAE) of the atom xyz-coordinates on 0.093 ± 0.058 Å after fitting a
-contraction/extraction factor, an ADP and a scale parameter.
-We demonstrate the generative capability of DeepStruc on a dataset of face-centered cubic (fcc), hexagonal closed packed
-(hcp) and stacking faulted structures, where DeepStruc can recognize the stacking faulted structures as an interpolation
-between fcc and hcp and construct new structural models based on a PDF. The MAE is in this example 0.030 ± 0.019 Å.
+Exp2SimGAN is a dual contrastive adversarial generative network that is trained on two domains of instances as simulated and experimental data. It learns to translate between the two domains while preserving the features of the conditioning instance. An instance can be a 1D, 2D or 3D dataset. In this paper, we have explored the use of Exp2SimGAN on 2D and 3D inelastic neutron scattering data.
+The network is easy to train since it only requires to divide the data into seperate folder - oppositely does the network require large amounts of memory to train. If you do not have access to large amounts of memory, please write andy@chem.ku.dk to get help. After training, only a fourth of the network has to be used meaning that a lot of memory is freed and the network can be run to predict on most computers.
 
-The MMNPs are provided as a graph-based input to the encoder of DeepStruc. We compare DeepStruc with a similar [DGM](https://github.com/AndyNano/CVAE.git)
-without the graph-based encoder. DeepStruc is able to reconstruct the structures using a smaller dimension of the latent
-space thus having a better generative capabillity. We also compare DeepStruc with a [brute-force modelling](https://github.com/AndyNano/Brute-force-PDF-modelling.git) approach and a [tree-based classification algorithm](https://github.com/AndyNano/MetalFinder.git). The ML models are significantly faster than the brute-force approach, but DeepStruc can furthermore create a latent space from where synthetic structures can be sampled which the tree-based method cannot!
-The baseline models can be found in other repositories: [brute-force](https://github.com/AndyNano/Brute-force-PDF-modelling.git),
-[MetalFinder](https://github.com/AndyNano/MetalFinder.git) and [CVAE](https://github.com/AndyNano/CVAE.git).
-![alt text](img/DeepStruc.png "DeepStruc")
+![alt text](imgs/Network.png "Network")
+
+We have also implemented an quantification for how much you can trust the results of Exp2SimGAN on your data inspired by a [FID score]("https://arxiv.org/abs/1706.08500").
 
 
 # Getting started
@@ -53,6 +46,9 @@ python predict.py
 A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [test options](/options/test_options.py)
+
+# Can we trust the machine?
+???
 
 # Authors
 __Andy S. Anker__<sup>1</sup>   
