@@ -15,9 +15,12 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
 5. [Acknowledgments](#Acknowledgments)
 6. [License](#license)  
 
-
+Exp2SimGAN is a dual contrastive adversarial generative network that is trained on two domains of instances as simulated and experimental data. It learns to translate between the two domains while preserving the features of the conditioning instance. An instance can be a 1D, 2D or 3D dataset. In this paper, we have explored the use of Exp2SimGAN on 2D and 3D inelastic neutron scattering data.
+The network is easy to train since it only requires to divide the data into seperate folder - oppositely does the network require large amounts of memory to train. If you do not have access to large amounts of memory, please write andy@chem.ku.dk to get help. After training, only a fourth of the network has to be used meaning that a lot of memory is freed and the network can be run to predict on most computers.
 
 ![alt text](imgs/Network.png "Network")
+
+We have also implemented an quantification for how much you can trust the results of Exp2SimGAN on your data inspired by a [FID score]("https://arxiv.org/abs/1706.08500").
 
 
 # Getting started
@@ -43,6 +46,9 @@ python predict.py
 A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [test options](/options/test_options.py)
+
+# Can we trust the machine?
+???
 
 # Authors
 __Andy S. Anker__<sup>1</sup>   
