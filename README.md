@@ -1,6 +1,6 @@
 [ChemRxiv] XXX  |  [Paper] XXX
 
-# Exp2SimGAN - refer to https://zenodo.org/record/7308423#.Y2zgoOzML0o
+# Exp2SimGAN
 Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate between simulated- and experimental data! 
 
 <p align="center">
