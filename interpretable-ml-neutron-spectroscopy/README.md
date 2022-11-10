@@ -1,5 +1,7 @@
-# interpretable-ml-neutron-spectroscopy
-A repository of code associated with the publication [_Interpretable, calibrated neural networks for analysis and understanding of neutron spectra_](https://arxiv.org/abs/2011.04584)
+# DUQ Classifier
+This is a truncated and altered version of the repository of code associated with the publication [_Interpretable, calibrated neural networks for analysis and understanding of neutron spectra_](https://arxiv.org/abs/2011.04584)
+
+Here we only use the DUQ classifier.
 
 ## Running the codes
 
