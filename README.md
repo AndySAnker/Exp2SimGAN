@@ -13,7 +13,7 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
     2. [Construct dataset](#construct-dataset)
     3. [Train model](#train-model)
     4. [Predict with model](#predict-with-model)
-    5. [Can-we-trust-the-Machine?](Can-we-trust-the-Machine?)
+    5. [Can we trust the Machine?](Can-we-trust-the-Machine?)
 3. [Author](#author)
 4. [Cite](#cite)
 5. [Acknowledgments](#Acknowledgments)
