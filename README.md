@@ -67,7 +67,7 @@ A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [test options](/options/test_options.py)
 
-# Can we trust the Machine?
+## Can we trust the Machine?
 Go to [INS_similarity](INS_similarity/) to get guidelines of how to achieve quantified values of how much we can trust the trained model on a particular dataset.
 
 # Authors
