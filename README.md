@@ -13,7 +13,7 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
     2. [Construct dataset](#construct-dataset)
     3. [Train model](#train-model)
     4. [Predict with model](#predict-with-model)
-    5. [Can-we-trust-the-Machine?](Can-we-trust-the-machine?)
+    5. [Can-we-trust-the-Machine?](Can-we-trust-the-Machine?)
 3. [Author](#author)
 4. [Cite](#cite)
 5. [Acknowledgments](#Acknowledgments)
@@ -67,7 +67,7 @@ A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [test options](/options/test_options.py)
 
-# Can we trust the machine?
+# Can we trust the Machine?
 Go to [INS_similarity](INS_similarity/) to get guidelines of how to achieve quantified values of how much we can trust the trained model on a particular dataset.
 
 # Authors
