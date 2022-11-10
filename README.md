@@ -10,9 +10,10 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
 1. [Exp2SimGAN](#Exp2SimGAN)
 2. [Getting started](#getting-started)
     1. [Install requirements](#install-requirements)
-    2. [Simulate data](#simulate-data)
+    2. [Construct dataset](#construct-dataset)
     3. [Train model](#train-model)
-    4. [Predict](#predict)
+    4. [Predict with model](#predict-with-model)
+    5. [Can-we-trust-the-Machine?](Can-we-trust-the-machine?)
 3. [Author](#author)
 4. [Cite](#cite)
 5. [Acknowledgments](#Acknowledgments)
@@ -41,7 +42,7 @@ The singularity can for example be used to run a command in the following way:
 singularity exec --nv pytorch_20.06-py3.sif python train.py 
 ```
 
-## Construct data
+## Construct dataset
 Go to the [construct data](/construct_dataset) folder to get guidelines to construct the dataset. 
 
 ## Train model
@@ -55,7 +56,7 @@ A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [train options](/options/train_options.py)
 
-## Predict
+## Predict with model
 To predict using Exp2SimGAN simply run:
 
 ```
