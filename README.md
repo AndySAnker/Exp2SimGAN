@@ -14,6 +14,7 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
     3. [Train model](#train-model)
     4. [Predict with model](#predict-with-model)
     5. [Can we trust the Machine?](#Can-we-trust-the-Machine)
+    6. [3D data](#3D-data)
 3. [Author](#author)
 4. [Cite](#cite)
 5. [Acknowledgments](#Acknowledgments)
@@ -69,6 +70,9 @@ We have also implemented an quantification for how much you can trust the result
 </p>
 
 Go to [INS_similarity](INS_similarity/) to get guidelines of how to achieve quantified values of how much we can trust the trained model on a particular dataset.
+
+## 3D data
+Go to the [3DINS](/3DINS) folder to get guidelines to construct and train Exp2SimGAN on a 3D dataset. 
 
 # Authors
 __Andy S. Anker__<sup>1</sup>   
