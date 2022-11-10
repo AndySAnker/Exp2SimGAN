@@ -35,28 +35,39 @@ We have also implemented an quantification for how much you can trust the result
 Follow these step if you want to train Exp2SimGAN and predict with Exp2SimGAN locally on your own computer.
 
 ## Install requirements
-See the [install](/install) folder. 
+We have deposited a singularity container (pytorch_20.06-py3.sif) at https://zenodo.org/record/7308423#.Y2zgoOzML0o.
+The singularity can for example be used to run a command in the following way:
+```
+singularity exec --nv pytorch_20.06-py3.sif python train.py 
+```
+
+## Construct data
+Go to the construct data folder to ZZZZ
 
 ## Train model
-To train your own DeepStruc model simply run:
+To train your own Exp2SimGAN model simply run:
+
 ```
-python train.py
+python train.py --dataroot XXX --name XXX --display_id 0 --save_epoch_freq 1 --model acdcl --input_nc 1 --output_nc 1
 ```
+
 A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [train options](/options/train_options.py)
 
 ## Predict
-To predict a MMNP using DeepStruc or your own model on a PDF:
+To predict using Exp2SimGAN simply run:
+
 ```
-python predict.py
+python test.py  --dataroot XXX --name XXX --epoch XXX --model acdcl --input_nc 1 --output_nc 1
 ```
+
 A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [test options](/options/test_options.py)
 
 # Can we trust the machine?
-???
+Go to [INS_similarity](INS_similarity/) to get guidelines of how to achieve quantified values of how much we can trust the trained model on a particular dataset.
 
 # Authors
 __Andy S. Anker__<sup>1</sup>   
