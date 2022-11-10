@@ -25,7 +25,7 @@ The network is easy to train since it only requires to divide the data into sepe
   <img width="800" src="imgs/Network.png">
 </p>
 
-We have also implemented an quantification for how much you can trust the results of Exp2SimGAN on your data inspired by a [FID score]("https://arxiv.org/abs/1706.08500").
+We have also implemented an quantification for how much you can trust the results of Exp2SimGAN on your data inspired by a [FID score]("https://arxiv.org/abs/1706.08500"). Here we calculate the Wasserstein distance between the dataset and the trainingset in the featurespace. A small Wasserstein distance represents data with high similarity to the trainingset and the model can confidently be applied on this dataset. However, a large Wasserstein distance represents data with low similarity to the trainingset and the user has to be cautious to use the model on this dataset.
 
 <p align="center">
   <img width="400" src="imgs/TrustingTheMachine.png">
