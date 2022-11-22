@@ -16,3 +16,5 @@ and simulated reference data:
 - sim_ref_data_goodenough.npy
 
 Use the python files in this folder to open the datasets and convert them to the right trainingset format of Exp2SimGAN.
+
+The data generation is described further in the publication [_Interpretable, calibrated neural networks for analysis and understanding of neutron spectra_](https://iopscience.iop.org/article/10.1088/1361-648X/abea1c) that has another dedicated [GitHub repository.](https://github.com/keeeto/interpretable-ml-neutron-spectroscopy)
