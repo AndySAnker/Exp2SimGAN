@@ -14,8 +14,9 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
     3. [Construct dataset](#construct-dataset)
     4. [Train model](#train-model)
     5. [Predict with model](#predict-with-model)
-    6. [Can we trust the Machine?](#Can-we-trust-the-Machine)
-    7. [3D data](#3D-data)
+    6. [Classifying the spin wave model](#classifying-the-spin-wave-model)
+    7. [Can we trust the Machine?](#Can-we-trust-the-Machine)
+    8. [3D data](#3D-data)
 3. [Author](#author)
 4. [Cite](#cite)
 5. [Acknowledgments](#Acknowledgments)
@@ -67,6 +68,9 @@ python test.py  --dataroot XXX --name XXX --epoch XXX --model acdcl --input_nc 1
 A list of possible arguments can be found in the following files:
 - [base options](/options/base_options.py)
 - [test options](/options/test_options.py)
+
+## Classifying the spin wave model
+Go to the [interpretable-ml-neutron-spectroscopy](/interpretable-ml-neutron-spectroscopy) folder to get guidelines to classify the spin wave model inspired by the publication [_Interpretable, calibrated neural networks for analysis and understanding of neutron spectra_](https://iopscience.iop.org/article/10.1088/1361-648X/abea1c) that has another dedicated [GitHub repository.](https://github.com/keeeto/interpretable-ml-neutron-spectroscopy).
 
 ## Can we trust the Machine?
 We have also implemented an quantification for how much you can trust the results of Exp2SimGAN on your data inspired by a [FID score](https://arxiv.org/abs/1706.08500). Here we calculate the Wasserstein distance between the dataset and the trainingset in the featurespace. A small Wasserstein distance represents data with high similarity to the trainingset and the model can confidently be applied on this dataset. However, a large Wasserstein distance represents data with low similarity to the trainingset and the user has to be cautious to use the model on this dataset.
