@@ -8,18 +8,18 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
 </p>
 
 1. [Exp2SimGAN](#Exp2SimGAN)
-2. [Try Exp2SimGAN using Colab](#try-exp2simgan-using-olab)
-3. [Getting started](#getting-started)
-    1. [Install requirements](#install-requirements)
-    2. [Construct dataset](#construct-dataset)
-    3. [Train model](#train-model)
-    4. [Predict with model](#predict-with-model)
-    5. [Can we trust the Machine?](#Can-we-trust-the-Machine)
-    6. [3D data](#3D-data)
-4. [Author](#author)
-5. [Cite](#cite)
-6. [Acknowledgments](#Acknowledgments)
-7. [License](#license)  
+2. [Getting started](#getting-started)
+    1. [Try Exp2SimGAN on Colab](#try-exp2simgan-on-olab)
+    2. [Install requirements](#install-requirements)
+    3. [Construct dataset](#construct-dataset)
+    4. [Train model](#train-model)
+    5. [Predict with model](#predict-with-model)
+    6. [Can we trust the Machine?](#Can-we-trust-the-Machine)
+    7. [3D data](#3D-data)
+3. [Author](#author)
+4. [Cite](#cite)
+5. [Acknowledgments](#Acknowledgments)
+6. [License](#license)  
 
 Exp2SimGAN is a dual contrastive adversarial generative network that is trained on two domains of instances as simulated and experimental data. It learns to translate between the two domains while preserving the features of the conditioning instance. An instance can be a 1D, 2D or 3D dataset. In this paper, we have explored the use of Exp2SimGAN on 2D and 3D inelastic neutron scattering data.
 The network is easy to train since it only requires to divide the data into seperate folder - oppositely does the network require large amounts of memory to train. If you do not have access to large amounts of memory, please write andy@chem.ku.dk to get help. After training, only a fourth of the network has to be used meaning that a lot of memory is freed and the network can be run to predict on most computers.
@@ -28,13 +28,13 @@ The network is easy to train since it only requires to divide the data into sepe
   <img width="800" src="imgs/Network.png">
 </p>
 
-# Try Exp2SimGAN using Colab
-Try to use Exp2SimGAN using Colab which does not require anything installed or downloaded to your computer.
-Follow the instructions in our [Colab notebook](https://github.com/AndySAnker/Exp2SimGAN/blob/main/Exp2SimGAN.ipynb)
-and try to play around. 
-
 # Getting started
 Follow these step if you want to train Exp2SimGAN and predict with Exp2SimGAN locally on your own computer.
+
+## Try Exp2SimGAN on Colab
+Try to use Exp2SimGAN on Colab which does not require anything installed or downloaded to your computer.
+Follow the instructions in our [Colab notebook](https://github.com/AndySAnker/Exp2SimGAN/blob/main/Exp2SimGAN.ipynb)
+and try to play around. 
 
 ## Install requirements
 We have deposited a singularity container (pytorch_20.06-py3.sif) at https://zenodo.org/record/7308423#.Y2zgoOzML0o.
