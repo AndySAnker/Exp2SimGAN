@@ -7,7 +7,7 @@ This is a truncated and altered version of the repository of code associated wit
 
 There are different `conda` environments associated with the different codes:
 
-* To run the uncertainty quntification netowrks you will need to load the `pytorch` environment in `environment-torch.yml`
+* To run the uncertainty quntification (DUQ classifier) networks you will need to load the `pytorch` environment in `environment-torch.yml`
 
 ## Using Docker
 
