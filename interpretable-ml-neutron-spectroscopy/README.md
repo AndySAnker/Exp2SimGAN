@@ -1,5 +1,5 @@
 # DUQ Classifier
-This is a truncated and altered version of the repository of code associated with the publication [_Interpretable, calibrated neural networks for analysis and understanding of neutron spectra_](https://arxiv.org/abs/2011.04584)
+This is a truncated and altered version of the repository of code associated with the publication [_Interpretable, calibrated neural networks for analysis and understanding of neutron spectra_](https://iopscience.iop.org/article/10.1088/1361-648X/abea1c) that has another dedicated [GitHub reposatory](https://github.com/keeeto/interpretable-ml-neutron-spectroscopy)
 
 **Here we only use the DUQ classifier.**
 
