@@ -9,7 +9,7 @@ Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate bet
 
 1. [Exp2SimGAN](#Exp2SimGAN)
 2. [Getting started](#getting-started)
-    1. [Try Exp2SimGAN on Colab](#try-exp2simgan-on-olab)
+    1. [Try Exp2SimGAN on Colab](#try-exp2simgan-on-colab)
     2. [Install requirements](#install-requirements)
     3. [Construct dataset](#construct-dataset)
     4. [Train model](#train-model)
