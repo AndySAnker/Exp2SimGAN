@@ -1,0 +1,1 @@
+This file is purely made to advoid testing error from Exp2SimGAN that needs a training folder. This could more elegantly be fixed in the code instead such that a train folder is not needed when testing.
