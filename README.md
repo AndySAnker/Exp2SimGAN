@@ -43,6 +43,10 @@ The singularity can for example be used to run a command in the following way:
 ```
 singularity exec --nv pytorch_20.06-py3.sif python train.py 
 ```
+Or use the requirement.txt file:
+```
+pip install -r requirements.txt
+```
 
 ## Construct dataset
 Go to the [construct data](/construct_dataset) folder to get guidelines to construct the dataset. 
