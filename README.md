@@ -1,4 +1,4 @@
-[ChemRxiv] XXX  |  [Paper] XXX
+[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/63a15e21a53ea6c3c751564f)  |  [Paper] XXX
 
 # Exp2SimGAN
 Welcome to Exp2SimGAN, a machine learning algorithm that learns to translate between simulated- and experimental data! 
