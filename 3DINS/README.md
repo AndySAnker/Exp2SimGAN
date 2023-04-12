@@ -1,4 +1,4 @@
-[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/63a15e21a53ea6c3c751564f)  |  [Paper] XXX
+[ChemRxiv](https://chemrxiv.org/engage/chemrxiv/article-details/63a15e21a53ea6c3c751564f)  |  [Paper](https://pubs.rsc.org/en/content/articlelanding/2023/dd/d2dd00147k)
 
 # Exp2SimGAN - 3D example
 
