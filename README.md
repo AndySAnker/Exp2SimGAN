@@ -108,7 +108,9 @@ If you use our code or our results, please consider citing our papers. Thanks in
 @article{anker2022Exp2SimGAN,
   title={Using generative adversarial networks to match experimental and simulated inelastic neutron scattering data},
   author={Andy S. Anker, Keith T. Butler, Manh D. Le, Toby G. Perring, Jeyan Thiyagalingam},
-  year={2022}}
+  journal={Digital Discovery},
+  year={2023},
+  publisher={Royal Society of Chemistry}
 ```
 
 # Acknowledgments
