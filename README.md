@@ -100,7 +100,7 @@ __Jeyan Thiyagalingam__<sup>2</sup>
 <sup>3</sup> ISIS Neutron and Muon Source, Rutherford Appleton Laboratory, England.   
 <sup>4</sup> Current affiliation: School of Engineering and Materials Science, Queen Mary University of London, England.   
 Should there be any question, desired improvement or bugs please contact us on GitHub or 
-through email: __andy@chem.ku.dk__.
+through email: __ansoan@dtu.dk__.
 
 # Cite
 If you use our code or our results, please consider citing our papers. Thanks in advance!
